@@ -1,0 +1,14 @@
+/* Haptics */
+&pmi_haptic{
+	qcom,actuator-type = "lra";
+	qcom,lra-resonance-sig-shape = "square";
+	qcom,play-rate-us = <4165>;
+	qcom,vmax-mv = <3000>;
+	/delete-property/ qcom,lra-auto-resonance-mode;
+	wf_0 { qcom,wf-vmax-mv = <3000>; };
+	wf_1 { qcom,wf-vmax-mv = <3000>; };
+	wf_2 { qcom,wf-vmax-mv = <3000>; };
+	wf_3 { qcom,wf-vmax-mv = <3000>; };
+	wf_4 { qcom,wf-vmax-mv = <3000>; };
+	wf_5 { qcom,wf-vmax-mv = <3000>; };
+};
