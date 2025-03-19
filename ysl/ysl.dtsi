@@ -1,4 +1,3 @@
-#include "spi.dtsi"
 #include "pinctrl.dtsi"
 #include "ysl-pinctrl.dtsi"
 #include "android.dtsi"
