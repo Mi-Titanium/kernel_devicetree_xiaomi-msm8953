@@ -1,3 +1,9 @@
+/* msm8953-audio */
+&int_codec {
+	/delete-property/asoc-wsa-codec-names;
+	/delete-property/asoc-wsa-codec-prefixes;
+};
+
 &wsa881x_i2c_f {
         status = "disabled";
 };
