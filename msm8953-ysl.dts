@@ -17,6 +17,7 @@
 #include "../pmi8940.dtsi"
 #include "../msm8953-mtp.dtsi"
 #include "../msm8953-pmi8940.dtsi"
+#include "../msm8953-camera-sensor-mtp.dtsi"
 
 #include "common/common.dtsi"
 #include "ysl/ysl.dtsi"
