@@ -12,9 +12,9 @@
 		vdd-supply = <&pm8953_l10>;
 		vio-supply = <&pm8953_l6>;
 
-		pinctrl-names = "init", "suspend";
-		pinctrl-0 = <&ts_reset_active &ts_int_active>;
-		pinctrl-1 = <&ts_reset_suspend &ts_int_suspend>;
+		pinctrl-names = "pmx_ts_active", "pmx_ts_suspend";
+		pinctrl-0 = <&ts_int_active &ts_reset_active>;
+            	pinctrl-1 = <&synaptic_int_suspend &synaptic_reset_suspend>;
 		syna,reset-delay-ms = <200>;
 		syna,startup-delay-ms = <500>;
 
